@@ -24,6 +24,5 @@ public class Calculator {
 		System.out.println(Divisione);
 		System.out.print("result Remainder:");
 		System.out.println(Remainder);
-				
 	}
 }
