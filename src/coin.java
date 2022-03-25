@@ -5,8 +5,8 @@ public class coin {
 		int num = (int)(Math.random()*2);
 		System.out.print("H or T: ");
 		Scanner input = new Scanner(System.in); 
-		String rnadcoin = input.next();
-		if (rnadcoin.equals("H")) { 
+		String randcoin = input.next();
+		if (randcoin.equals("H")) { 
 			if (num == 0) {
 				System.out.println("Correct!"); 
 			} else {
