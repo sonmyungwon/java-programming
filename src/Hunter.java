@@ -12,7 +12,7 @@ public class Hunter {
 			int a = monster.hp - power;
 			monster.hp = a;
 			System.out.println("Hunter attacked Monster with a power of " + power);
-			System.out.println("Monster has " + monster.hp + "hp");
+			System.out.println("Monster HP: " + monster.hp + "hp");
 		}
 	}
 }
