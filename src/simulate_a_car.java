@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class simulate_a_car {
 	
 	public static void main(String[] args) {
-		car cars = new car();
+		car cars = new car(2015, "Honda", 85.0);
 		Scanner input = new Scanner(System.in); 
 		System.out.print("car's year : ");
 		cars.year = input.nextInt();

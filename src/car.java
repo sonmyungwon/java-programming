@@ -3,7 +3,7 @@ public class car {
 	String maker;
 	double speed;
 
-	void Car(int year, String maker, double speed){
+	public car(int year, String maker, double speed){
 		this.year = year;
 		this.maker = maker;
 		this.speed = speed; 
