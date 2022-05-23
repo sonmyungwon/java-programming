@@ -8,20 +8,20 @@ public class File1 {
 
 	public static void main(String[] args) { 
 		Scanner input = new Scanner(System.in); 
-		String sentence;
+		String text;
 		Date date = new Date();
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		try {
-			
+
 			FileOutputStream file = new FileOutputStream("text.txt");
 			while (true) {
-				sentence = input.nextLine(); 
-				if (sentence.equals("End")) 
+				text = input.nextLine(); 
+				if (text.equals("End")) 
 					break;
-				
+
 				file.write(format.format(date).getBytes());
 				file.write("\t".getBytes());
-				file.write(sentence.getBytes());
+				file.write(text.getBytes());
 				file.write("\n".getBytes()); 
 			}
 			file.close();
